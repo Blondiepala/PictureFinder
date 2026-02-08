@@ -1,0 +1,5 @@
+torch
+facenet-pytorch
+Pillow
+numpy
+tqdm
