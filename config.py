@@ -14,6 +14,9 @@ class Config:
     batch_size: int = 32
     num_workers: int = 0  # 0 = auto (CPU count - 2)
     verbose: bool = False
+    video_path: Path | None = None
+    video_start: float | None = None  # seconds
+    video_end: float | None = None  # seconds
 
 
 def select_device() -> torch.device:

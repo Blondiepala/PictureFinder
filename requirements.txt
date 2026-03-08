@@ -3,3 +3,4 @@ facenet-pytorch
 Pillow
 numpy
 tqdm
+opencv-python
